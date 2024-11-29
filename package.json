@@ -9,17 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.7.4",
+    "@heroicons/react": "^2.2.0",
+    "@prisma/client": "^6.0.0",
+    "@tanstack/react-query": "^4.36.1",
+    "@trpc/client": "^10.43.6",
+    "@trpc/next": "^10.43.6",
+    "@trpc/react-query": "^10.43.6",
+    "@trpc/server": "^10.43.6",
     "@types/node": "22.10.1",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
     "autoprefixer": "10.4.20",
+    "clsx": "^2.1.1",
     "eslint": "9.15.0",
     "eslint-config-next": "15.0.3",
     "next": "15.0.3",
+    "next-auth": "^4.24.10",
     "postcss": "8.4.49",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "superjson": "^2.2.1",
     "tailwindcss": "3.4.15",
-    "typescript": "5.7.2"
+    "typescript": "5.7.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "prisma": "^6.0.0"
   }
 }
